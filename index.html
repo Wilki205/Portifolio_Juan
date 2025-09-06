@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan JS - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Juan JS</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero__content">
+                <h1>EU SOU<br>JUAN</h1>
+                <p>Entusiasta da programação com foco em desenvolvimento web utilizando JavaScript, Node.js e Python. Minha paixão é aprender continuamente e transformar conceitos em aplicações funcionais e eficientes.</p>
+                <div class="hero__buttons">
+                    <a href="#contact" class="button">Contrate-me</a>
+                    <a href="#projects" class="button button--ghost">
+                        <i class="fas fa-briefcase"></i> Ver Projetos
+                    </a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="https://i.ibb.co/9vX19gM/profile-pic.png" alt="Foto de perfil de Juan">
+            </div>
+        </section>
+
+        <section class="services container" id="services">
+            <h2 class="section__title">Meus Serviços</h2>
+            <div class="services__grid--simplified">
+                <div class="service__card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento Front-end</h3>
+                    <p>Crio interfaces de usuário interativas e responsivas, garantindo uma experiência de navegação agradável em qualquer dispositivo, do celular ao desktop.</p>
+                </div>
+                <div class="service__card">
+                    <i class="fas fa-server"></i>
+                    <h3>Desenvolvimento Back-end</h3>
+                    <p>Desenvolvo a lógica e a estrutura do lado do servidor que sustentam as aplicações, focando em sistemas eficientes e na integração com bancos de dados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about container" id="about">
+            <h2 class="section__title">Sobre Mim e Minhas Habilidades</h2>
+            <div class="about__grid--single">
+                <div class="about__skills">
+                    <h3>Minhas Habilidades</h3>
+                    <div class="skill">
+                        <div class="skill__header"><span>HTML</span><span>95%</span></div>
+                        <div class="skill__bar"><div class="skill__percentage" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__header"><span>CSS</span><span>90%</span></div>
+                        <div class="skill__bar"><div class="skill__percentage" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__header"><span>JavaScript</span><span>80%</span></div>
+                        <div class="skill__bar"><div class="skill__percentage" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__header"><span>Python</span><span>85%</span></div>
+                        <div class="skill__bar"><div class="skill__percentage" style="width: 85%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects container" id="projects">
+            <h2 class="section__title">Meus Projetos Recentes</h2>
+            <div class="projects__grid">
+                <div class="project__card">
+                    <img src="img/projeto-1.jpg" alt="Imagem do Projeto 1">
+                    <div class="project__info">
+                        <h4>Título do Projeto 1</h4>
+                        <p>Breve descrição do que o projeto faz e o problema que ele resolve.</p>
+                        <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+                        <a href="#">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="img/projeto-2.jpg" alt="Imagem do Projeto 2">
+                    <div class="project__info">
+                        <h4>Título do Projeto 2</h4>
+                        <p>Breve descrição do que o projeto faz e o problema que ele resolve.</p>
+                        <p><strong>Tecnologias:</strong> React, Node.js</p>
+                        <a href="#">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="img/projeto-3.jpg" alt="Imagem do Projeto 3">
+                    <div class="project__info">
+                        <h4>Título do Projeto 3</h4>
+                        <p>Breve descrição do que o projeto faz e o problema que ele resolve.</p>
+                        <p><strong>Tecnologias:</strong> Python, Flask</p>
+                        <a href="#">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact container" id="contact">
+            <h2 class="section__title">Contato</h2>
+            <p style="text-align: center; color: var(--text-color-light);">Você pode me encontrar no LinkedIn ou enviar um e-mail para email@exemplo.com</p>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+             <p>&copy; 2025 Juan. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
