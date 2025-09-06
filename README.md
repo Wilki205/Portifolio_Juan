@@ -1,8 +1,8 @@
 # Portfólio Juan JS
 
-![GitHub repo size](https://img.shields.io/github/repo-size/wilkisons/portifolio_juan)
-![GitHub last commit](https://img.shields.io/github/last-commit/wilkisons/portifolio_juan)
-![GitHub language count](https://img.shields.io/github/languages/count/wilkisons/portifolio_juan)
+![GitHub repo size](https://img.shields.io/github/repo-size/Wilki205/Portifolio_Juan)
+![GitHub last commit](https://img.shields.io/github/last-commit/Wilki205/Portifolio_Juan)
+![GitHub language count](https://img.shields.io/github/languages/count/Wilki205/Portifolio_Juan)
 
 
 Projeto de portfólio desenvolvido para um cliente, com foco em **experiência responsiva**, **design moderno** e **interatividade**.
