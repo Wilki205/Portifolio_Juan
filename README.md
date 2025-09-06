@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/wilkisons/portifolio_juan)
 ![GitHub last commit](https://img.shields.io/github/last-commit/wilkisons/portifolio_juan)
 ![GitHub language count](https://img.shields.io/github/languages/count/wilkisons/portifolio_juan)
-)
+
 
 Projeto de portfólio desenvolvido para um cliente, com foco em **experiência responsiva**, **design moderno** e **interatividade**.
 
@@ -46,4 +46,5 @@ Se possível, adicione um screenshot ou GIF do site funcionando:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/PORTFOLIO.git
+  git clone https://github.com/Wilki205/Portifolio_Juan.git
+
